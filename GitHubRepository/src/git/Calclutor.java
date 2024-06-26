@@ -13,6 +13,14 @@ public class Calclutor {
 		
 		System.out.println("The sum is " + first_num+second_num);
 		sc.close();
+		
+		System.out.println("Enter your number");
+		int first_num1 = sc.nextInt();
+		System.out.println("Enter your number");
+		int second_num2 = sc.nextInt();
+		System.out.println(second_num2-first_num1);
+		
+				sc.close();
 	}
 
 }
